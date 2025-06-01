@@ -1,0 +1,25 @@
+body{
+background-color: navy;
+text-align: center;
+}
+table{
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    margin: 200px;
+    margin-left: 400px;
+    width: 200px;
+}
+tr{
+    color: white;
+}
+td:hover{
+    color: white;
+background-color: gold;
+
+text-shadow: 10px 10px 20px black;
+cursor: pointer;
+}
+tr:nth-child(even){
+    background-color: dimgray;
+}
